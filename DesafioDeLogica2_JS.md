@@ -1,7 +1,7 @@
 ## DESAFIOS DE LÓGICA 2:
 
 Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
-```
+```javascript
 let diaDaSemana = prompt("Que dia da semana é hoje?");
 let diaFormatado = diaDaSemana.toLowerCase(); // Converte a entrada para minúsculas
 
