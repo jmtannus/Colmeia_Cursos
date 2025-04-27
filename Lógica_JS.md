@@ -1,4 +1,4 @@
-## Resolução dos desafios do curso de lógica de programação: 
+## Resolução dos desafios do curso de lógica de programação_Alura: 
 
 <https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript/task/137040>
 
