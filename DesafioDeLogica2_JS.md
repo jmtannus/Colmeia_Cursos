@@ -44,8 +44,18 @@ if (pontosConvertidos >= 100) {
 
 Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 ```javascript
+let saldo = 1.000,00; // Suponha que este seja o saldo da conta
+
+let mensagemSaldo = `Seu saldo atual é de: R$${saldo.toFixed(2)}.`;
+
+alert(mensagemSaldo);
 ```
 
 Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 ```javascript
+let nome = prompt('Digite o seu nome');
+let mensagemBoasvindas = `Seja bem vindo(a), ${nome}!`;
+
+alert(mensagemBoasvindas);
+
 ```
