@@ -2,12 +2,15 @@
 
 Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 ```
-let diaDaSemana = prompt("Que dia da semana é hoje?);
-if(diaDaSemana == "Sábado" && diaDaSemana == "Domingo"){
+let diaDaSemana = prompt("Que dia da semana é hoje?");
+let diaFormatado = diaDaSemana.toLowerCase(); // Converte a entrada para minúsculas
+
+if (diaFormatado === "sábado" || diaFormatado === "domingo") {
   alert("Bom fim de semana!");
-  } else {
+} else {
   alert("Boa semana!");
 }
+
 
 ```
 
