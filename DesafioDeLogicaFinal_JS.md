@@ -69,10 +69,29 @@ console.log(`A diferença entre ${valor1} e ${valor2} é igual a ${resultado}.`)
 
 Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
 ```javascript
+const idadeStr = prompt('Qual a sua idade?');
+const idade = parseInt(idadeStr);
 
+if (idade >= 18) {
+  console.log("Você é maior de idade.");
+} else {
+  console.log(`Você tem ${idade} anos, é menor de idade.`);
+}
 ```
 Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
 ```javascript
+const numeroStr = prompt("Digite um número:");
+const numero = parseFloat(numeroStr);
+
+if (isNaN(numero)) {
+  console.log("Entrada inválida. Por favor, digite um número.");
+} else if (numero > 0) {
+  console.log("O número digitado é positivo.");
+} else if (numero < 0) {
+  console.log("O número digitado é negativo.");
+} else {
+  console.log("O número digitado é zero.");
+}
 
 ```
 Use um loop while para imprimir os números de 1 a 10 no console.
