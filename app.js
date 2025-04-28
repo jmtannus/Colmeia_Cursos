@@ -1,7 +1,8 @@
-alert('Boas vindas ao jogo do número secreto');
+alert("Boas vindas ao jogo do número secreto!");
+
 let numeroMaximo = 5000;
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
-console.log(numeroSecreto)
+//console.log(numeroSecreto)
 //console.log("Resultado da comparação", chute == numeroSecreto);
 let chute;
 let tentativas = 1;
@@ -16,11 +17,10 @@ while (parseInt(chute) != numeroSecreto) { // Converte chute para número aqui
     break;
   } else {
     if (parseInt(chute) > numeroSecreto) { // Converte chute para número aqui
-      alert(`O número secreto é MENOR que ${chute}. Tente novamente!`);
+      alert(`Que pena, você errou :( O número secreto é menor que ${chute}. Tente novamente! :)`);
     } else {
-      alert(`O número secreto é MAIOR que ${chute}. Tente novamente!`);
+      alert(`O número secreto é maior que ${chute}. Tente novamente! :)`);
     }
-    // tentativas = tentativas + 1;
     tentativas++; // Incrementa a tentativa APÓS a verificação do chute errado
   }
 }
