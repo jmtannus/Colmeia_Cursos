@@ -96,16 +96,32 @@ if (isNaN(numero)) {
 ```
 Use um loop while para imprimir os números de 1 a 10 no console.
 ```javascript
+let numero = 1;
+while(numero <=10){
+console.log(numero);
+numero++;
+}
 
 ```
 Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 ```javascript
+let notaStr = "10"; // É uma boa prática envolver o valor em string, mesmo que seja um número
+let nota = parseInt(notaStr);
 
+if (nota >= 7) {
+  console.log("Parabéns! Você foi aprovado!");
+} else {
+  console.log("Você foi reprovado.");
+}
 ```
+
 Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
 ```javascript
+const numeroAleatorio = Math.random();
+console.log(numeroAleatorio);
 
 ```
+
 Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
 ```javascript
 
