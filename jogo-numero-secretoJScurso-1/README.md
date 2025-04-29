@@ -3,7 +3,10 @@ Cursos selecionados para aperfeiçoamento dos funcionários da Colméia Solution
 ###### _BY Alura_
 
 ## [Lógica de programação: mergulhe em programação com JavaScript](https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript?preRequirementFrom=logica-programacao-funcoes-listas) 
-### _Trilha QA - 1º curso_
+### _Trilha QA - 1º curso_ 
+
+**Acesse o resultado final:** https://logica-programacao-javascript-nine.vercel.app/
+
 Conteúdo:
 - Exibir mensagens na tela de forma interativa
 - Utilizar variáveis no desenvolvimento de software
