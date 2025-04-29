@@ -3,7 +3,7 @@ Cursos selecionados para aperfeiçoamento dos funcionários da Colméia Solution
 ###### _BY Alura_
 
 ## [Logica-programacao-javascript](https://cursos.alura.com.br/course/logica-programacao-funcoes-listas/task/136625) 
-### _Continuação - 1º curso_
+### _Trilha QA - 1º curso_
 Conteúdo:
 - Exibir mensagens na tela de forma interativa
 - Utilizar variáveis no desenvolvimento de software
